@@ -1,0 +1,153 @@
+/* I chose to focus on img, h1, p, and li to focus on responsiveness */
+/* media query for screen sizes from 0px to 400px */
+@media screen and (max-width: 400px) {
+    img {
+        width: 100%; 
+        height: 200px;
+        text-align: center; 
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-size: large;
+    }
+    p {
+        font-size: large;
+    }
+    li {
+        font-size: 14px;
+    }
+  }
+
+/* media query for screen sizes from 401px to 749px */
+@media screen and (min-width: 401px) and (max-width: 749px) {
+    img {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 17;
+        text-align: center;
+    }
+    li {
+        font-size: 14px;
+    }
+}
+
+/* media query for screen sizes from 750px to onwards */
+@media screen and (min-width: 750px) {
+    img {
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+main {
+    display: flex;
+}
+
+/* id wrapper for div to wrap around class first and class second */
+#wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap-reverse;
+    margin: 20px;
+}
+
+/* id for div that hold the list of ingredients */
+#first {
+    width: 300px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+/* id for div that holds the list of directions */
+#second {
+    width: 300;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+/* gets all images with class displayed and applies the following */
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/* for the body */
+body {
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+/* for header 1 */
+h1 {
+    font-weight: bold;
+    text-align: ; 
+    text-decoration: underline;
+    border: 5px solid darkgreen;
+    border-radius: 50px 50px;
+    text-align: center;
+    margin: 0;
+}
+
+/* for header 2 */
+h2 {
+    padding-bottom: 15px;
+}
+
+/* for header 3 */
+h3 {
+    font-size: medium;
+}
+
+/* ADDED */
+/* under p, all occurences of span will be italic and I set it to bold */
+p span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* under p, the last span will be underlined and I set it to bold*/
+p span:last-child {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* for the first span class, sets the style of font to normal and sets the color to red, overrides the properties */
+.first-span {
+    font-style: normal;
+    color: red;
+}
+
+/* changed the ul with this class to use an image for the bullet points */
+.unordered-list {
+    list-style-image: url('./images/square.gif');
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+/* changed the ol with this class to use upper roman for the numbering */
+.ordered-list {
+    list-style: upper-roman;
+    font-size: 20px;
+}   
+
+/* hover class for all links */
+a:hover {
+    background-color: yellow;
+}

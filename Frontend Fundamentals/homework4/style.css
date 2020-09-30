@@ -1,0 +1,42 @@
+/* Reference website I used that list all the css properties: https://www.w3schools.com/cssref/default.asp */
+/* I have used the border property to create a border, border-radius to make the corners round, text-align to 
+    center the text, font-weight to make it bold and text-decoration to add an underline. */
+
+body {
+    background-color: yellowgreen;
+}
+
+p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+ol {
+    font-size: 30px;
+    border: 2px solid darkgreen;
+    border-radius: 50px 50px;
+}
+
+ul {
+    font-size: 40px;
+    border: 2px solid darkgreen;
+    border-radius: 50px 50px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: ;
+    padding-bottom: 30px; 
+    text-decoration: underline;
+
+    border: 5px solid darkgreen;
+    border-radius: 50px 50px;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+
+

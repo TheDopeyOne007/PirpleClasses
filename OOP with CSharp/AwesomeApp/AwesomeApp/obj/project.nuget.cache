@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dG/ES8O99827lvAy5qsKozBQgXjOYu8H6rmwzpSmJIIt9G3HdSJyINQz5BwJsLFR4vkwEpQOQaI1GOHrOSQXvw==",
+  "success": true,
+  "projectFilePath": "/Users/anthonyheitzeberg/Desktop/Pirple Classes/OOP with CSharp/AwesomeApp/AwesomeApp/AwesomeApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/anthonyheitzeberg/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/anthonyheitzeberg/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/anthonyheitzeberg/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/anthonyheitzeberg/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/anthonyheitzeberg/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}

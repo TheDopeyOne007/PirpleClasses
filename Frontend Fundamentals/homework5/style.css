@@ -1,0 +1,57 @@
+/* Reference website I used that list all the css properties: https://www.w3schools.com/cssref/default.asp */
+/* I have used the border property to create a border, border-radius to make the corners round, text-align to 
+    center the text, font-weight to make it bold and text-decoration to add an underline. */
+
+body {
+    background-color: yellowgreen;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: ;
+    padding-bottom: 30px; 
+    text-decoration: underline;
+
+    border: 5px solid darkgreen;
+    border-radius: 50px 50px;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+/* ADDED */
+/* under p, all occurences of span will be italic and I set it to bold */
+p span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* under p, the last span will be underlined and I set it to bold*/
+p span:last-child {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* for the first span class, sets the style of font to normal and sets the color to red, overrides the properties */
+.first-span {
+    font-style: normal;
+    color: red;
+}
+
+/* changed the ul with this class to use an image for the bullet points */
+.unordered-list {
+    list-style-image: url('./images/square.gif')
+}
+
+/* changed the ol with this class to use upper roman for the numbering */
+.ordered-list {
+    list-style: upper-roman;
+}   
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="12 Rules for Life Summary">
+    <meta name="author" content="Jordan B. Peterson">
+    <title>Project 1</title>
+</head>
+<body>
+    <!-- List of tags I have chosen: 1.) <nav></nav> 2.) <select><select> 3.) <iframe></iframe> 4.) <input></input> 5.) <form></form> 6.) <i></i> 7.) <label></label> 8.) <hr></hr> 9.) <option></option> 10.) <textarea></textarea> 11.) <audio></audio> 12.) <meta> -->
+    <div>
+        <h1>12 Rules for Life</h1>
+        <h2>by Jordan B. Peterson</h2>
+    </div>
+    <div>
+        <!-- The nav tag helps create an organized arrangement of links for your user -->
+        <nav>
+            <a href="https://www.goodreads.com/book/show/30257963-12-rules-for-life">Goodreads</a>  |
+            <a href="https://bookmarks.reviews/reviews/12-rules-for-life-an-antidote-to-chaos/">Bookmarks</a>  |
+            <a href="https://en.wikipedia.org/wiki/12_Rules_for_Life">Wikipedia</a>  |
+            <a href="https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021">Buy on Amazon</a>
+        </nav>
+    </div>
+    <div>
+        <!-- In this div I inserted an image and placed in on the left to wrap it with text on the right -->
+        <img src="./images/12_rules_life_cover.jpg" width="250px" height="425px" ALIGN="left">
+        <p><strong>12 Rules for Life: An Antidote to Chaos</strong> is a 2018 self-help book by Canadian clinical psychologist and psychology professor <strong>Jordan Peterson</strong>. It provides life advice through essays in abstract ethical principles, psychology, mythology, religion, and personal anecdotes.</p>
+        <!-- I used ordered list to put all the key parts of the book in order -->
+        <h3>List of 12 Rules</h3>
+        <ol>
+            <li>
+                <i>"Stand up straight with your shoulders back"</i>
+            </li>
+            <li>
+                <i>"Treat yourself like you are someone you are responsible for helping"</i>
+            </li>
+            <li>
+                <i>"Make friends with people who want the best for you"</i>
+            </li>
+            <li>
+                <i>"Compare yourself with who you were yesterday, not with who someone else is today"</i>
+            </li>
+            <li>
+                <i>"Do not let your children do anything that makes you dislike them"</i>
+            </li>
+            <li>
+                <i>"Set your house in perfect order before you criticize the world"</i>
+            </li>
+            <li>
+                <i>"Pursue what is meaningful (not what is expedient)"</i>
+            </li>
+            <li>
+                <i>"Tell the truth — or, at least, don’t lie"</i>
+            </li>
+            <li>
+                <i>"Assume that the person you are listening to might know something you don’t"</i>
+            </li>
+            <li>
+                <i>"Be precise in your speech"</i>
+            </li>
+            <li>
+                <i>"Do not bother children when they are skate-boarding"</i>
+            </li>
+            <li>
+                <i>"Pet a cat when you encounter one on the street"</i>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <!-- The iframe tag is used to embed videos from outside to the html, so I embedded a YouTube vid into my html, the user can iew the YouTube vid right on the html-->
+        <h3>Here is a short summary video of the book:</h3>
+        <iframe width="651" height="366" src="https://www.youtube.com/embed/PFo9-7VX2K8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+        <!-- The audio tag helps insert a mp3 with a player on your html -->
+        <h3>EXTRA: Here what the author himself thinks is the most important rule from his book</h3>
+        <audio controls><source src="./audio/The Most Important Rule For LIFE - Jordan Peterson Motivation.mp3" type="audio/mpeg"></audio>
+    </div>
+    <div>
+        <!-- So I read on forms, and wanted to make a comment section through a form, so the user can enter his/her details and comments -->
+        <h3>Share your thoughts on the book with us :) and pick the rule that stood out for you</h3>
+        <form>
+            <!-- Labels are handy to pair up with input to let the user know what should filled in -->
+            <label>First Name:</label>
+            <input type="text" name="firstname" placeholder="Your first name..."><br>
+            <label>Last Name:</label>
+            <input type="text" name="lastname" placeholder="Your last name..."><br>
+            <label for="country">Rule that stood out</label>
+            <!-- I want to also know which rule did the user like from the book, so i used the select tag to make a drop down list for them to choose from -->
+            <select name="rulesforlife">
+                <option value="0">None</option>
+                <option value="1">Rule 1</option>
+                <option value="2">Rule 2</option>
+                <option value="3">Rule 3</option>
+                <option value="4">Rule 4</option>
+                <option value="5">Rule 5</option>
+                <option value="6">Rule 6</option>
+                <option value="7">Rule 7</option>
+                <option value="8">Rule 8</option>
+                <option value="9">Rule 9</option>
+                <option value="10">Rule 10</option>
+                <option value="11">Rule 11</option>
+                <option value="12">Rule 12</option>
+                <option value="13">All</option>
+            </select><br>
+            <label for="subject">Subject</label><br>
+            <!-- THe textarea tag is used to make an area where the user can type out their thoughts -->
+            <textarea id="subject" name="thoughts" placeholder="Write your review/thoughts/comments..."></textarea>
+            <!-- I also used the input tag to make a submit button for the user to submit their details and comments -->
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- The hr tag creates a horizontal line which I used to sepearate the main content from the footer -->
+    <hr>
+    <!-- Made a footer -->
+    <footer>Created by Anthony Heitzeberg for a project in Pirple</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A9F03B7F-8967-40C3-BF51-F70BC5F9C389}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AwesomeApp/MainPage.xaml.cs">
+    <Files>
+      <File FileName="AwesomeApp.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="AwesomeApp/MainPage.xaml" />
+      <File FileName="AwesomeApp/MainPage.xaml.cs" Line="7" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AwesomeApp" expanded="True">
+            <Node name="AwesomeApp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AwesomeApp.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AwesomeApp.iOS FirstBuild="True" />
+</Properties>
