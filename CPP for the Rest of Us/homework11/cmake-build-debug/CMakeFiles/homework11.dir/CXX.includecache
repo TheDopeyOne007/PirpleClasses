@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/List_base.h
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+algorithm
+-
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/MyMainClass.cpp
+MyMainClass.h
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/MyMainClass.h
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/MyMainClass.h
+iostream
+-
+string
+-
+tuple
+-
+cstdlib
+-
+ctype.h
+-
+List_base.h
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/List_base.h
+TrackParser.h
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/TrackParser.h
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/homework11/TrackParser.h
+iostream
+-
+string
+-
+vector
+-
+

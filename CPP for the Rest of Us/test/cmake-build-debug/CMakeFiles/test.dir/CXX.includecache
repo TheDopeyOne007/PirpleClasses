@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/test/Songs.cpp
+iostream
+-
+iomanip
+-
+string
+-
+vector
+-
+Songs.h
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/test/Songs.h
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/test/Songs.h
+string
+-
+vector
+-
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/Wooffurs/Dog.cpp
+Dog.h
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/Wooffurs/Dog.h
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/Wooffurs/Dog.h
+iostream
+-
+string
+-
+
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/Wooffurs/main.cpp
+iostream
+-
+iomanip
+-
+string
+-
+cstdio
+-
+locale
+-
+cmath
+-
+Dog.h
+/Users/anthonyheitzeberg/Desktop/Pirple Classes/CPP for the Rest of Us/Wooffurs/Dog.h
+
